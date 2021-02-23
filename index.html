@@ -55,10 +55,11 @@
                 </div>
                 <div class="plus-minus-btn">
                     <p>
-                        <span onclick="handlePassengerTicket('first', true)" id="increasePassenger"
-                            class="icon-style">+</span>
                         <span onclick="handlePassengerTicket('first', false)" id="decreasePassenger"
                             class="icon-style">-</span>
+                        <span onclick="handlePassengerTicket('first', true)" id="increasePassenger"
+                            class="icon-style">+</span>
+                        
                     </p>
                 </div>
             </div>
@@ -69,10 +70,13 @@
                     <input id="economyClassInput" class="inp-style inp-width" value="0" name="">
                 </div>
                 <div class="plus-minus-btn">
-                    <p> <p> <span onclick="handlePassengerTicket('economy', true)" id="increasePassenger"
+                    <p>  
+                        <span onclick="handlePassengerTicket('economy', false)" id="decreasePassenger"
+                        class="icon-style">-</span>
+                        <span onclick="handlePassengerTicket('economy', true)" id="increasePassenger"
                         class="icon-style">+</span>
-                    <span onclick="handlePassengerTicket('economy', false)" id="decreasePassenger"
-                        class="icon-style">-</span> </p>
+                    
+                    </p>
                 </div>
             </div>
             <div class="calculations">
